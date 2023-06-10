@@ -2,18 +2,18 @@ import {VIAMenu} from '../menu-types';
 
 export const qmk_audio: VIAMenu[] = [
   {
-    label: 'Audio',
+    label: '音频',
     content: [
       {
-        label: 'General',
+        label: '基本设置',
         content: [
           {
-            label: 'Audio Enable',
+            label: '音频启用',
             type: 'toggle',
             content: ['id_qmk_audio_enable', 4, 1],
           },
           {
-            label: 'Audio Clicky Enable',
+            label: '点击音效启用',
             type: 'toggle',
             content: ['id_qmk_audio_clicky_enable', 4, 2],
           },
