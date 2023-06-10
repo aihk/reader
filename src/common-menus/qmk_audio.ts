@@ -2,7 +2,7 @@ import {VIAMenu} from '../menu-types';
 
 export const qmk_audio: VIAMenu[] = [
   {
-    label: 'Audio',
+    label: '音频',
     content: [
       {
         label: 'General',
